@@ -1,14 +1,13 @@
 
 /**
- * Write a description of class Hexagono here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * Un hexágono regular en una figura geométrica, cuya área depende de la dimensión del lado (L) y del apotema
+ * (ap) del hexágono. Escriba un programa en Java que obtenga los datos necesarios del usuario y halle el área de
+ * acuerdo a la siguiente fórmula: Área = (6·L·ap)/2
  */
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-public class Hexagono
+public class Ejercicio6_Hexagono
 {
      public static void main(String[] args) throws IOException { 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

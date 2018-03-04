@@ -1,14 +1,17 @@
 
 /**
- * Write a description of class Triangulo here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * Para un triángulo cualquiera, donde sus lados miden a, b y c centímetros, se tienen las siguientes definiciones.
+ *  El semiperímetro es la mitad del perímetro del triángulo y se halla con la fórmula s = (a+b+c)/2
+ *  También se puede calcular el área a partir de su semiperímetro y las longitudes de loslados con la siguiente fórmula:
+ *  A = ?(s·(s ? a)·(s ? b)·(s ? c))
+ *  También puede ser calculado el circumradius R de un triángulo a partir de la fórmula: R = abc/(4??(s(s?a)(s?b)(s?c)))
+ *  Escriba un programa en Java que lea los tres lados del triángulo y permite
+ *  calcular y mostrar el semiperímetro, el área y el circumradius de ese triángulo.
  */
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-public class Triangulo
+public class Ejercicio7_Triangulo
 {
     public static void main(String[] args) throws IOException { 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
