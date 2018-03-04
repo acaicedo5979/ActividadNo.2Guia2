@@ -10,7 +10,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-public class Area_Volumen_de_TroncoPiramide
+public class Ejercicio1Area_Volumen_de_TroncoPiramide
 {
     public static void main(String[] args) throws IOException { 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
