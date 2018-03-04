@@ -1,14 +1,15 @@
 
 /**
- * Write a description of class Volumen_Cono here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * Un tronco de cono, es una figura geométrica resultante de cortar la parte superior de un cono normal, tal como
+ * se puede ver en la figura a continuación:
+ * El volumen de un cono se halla fácilmente multiplicando el área de la base (que para el cono es un círculo, y el
+ * área se calcula como A = ?r ) por la altura. Su misión ahora es escribir un programa en Java que halle el 2
+ * volumen del tronco de cono, a partir de los datos necesarios.
  */
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-public class Volumen_Cono
+public class Ejercicio3_Volumen_Cono
 {
     public static void main(String[] args) throws IOException { 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
