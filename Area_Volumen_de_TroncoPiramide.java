@@ -1,14 +1,16 @@
-
 /**
- * Write a description of class Tronco_Piramide here.
- *
- * @author (your name)
- * @version (a version number or a date)
+ * Un tronco de pirámide cuadrangular es una figura geométrica tridimensional, 
+ * tal como se presenta en la figuraa continuación, donde b es la dimensión del 
+ * lado del cuadrado superior, y B es la dimensión del lado de cuadrado inferior, 
+ * y h es la altura del tronco. Escriba programa en Java que solicite la información 
+ * necesaria para armar un tronco de pirámide, y que calcule y muestre:
+ * a. El área del tronco de pirámide
+ * b. El volumen del tronco.
  */
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-public class Tronco_Piramide
+public class Area_Volumen_de_TroncoPiramide
 {
     public static void main(String[] args) throws IOException { 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
